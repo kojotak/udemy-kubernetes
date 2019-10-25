@@ -1,5 +1,5 @@
 # udk8s
-Udemy's Docker and Kubernetes course: https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide
+My notes and examples from Udemy's Docker and Kubernetes course: https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide
 
 ## Section 2 - správa kontajnerů
 * Docker ps
