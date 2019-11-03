@@ -62,4 +62,18 @@ My notes and examples from Udemy's Docker and Kubernetes course: https://www.ude
   * Vypíše běžící kontajnery podle yml z aktuálního adresáře
   * Nevypíše nic, pokud v . žádný yml není
 
+## Section 6 - creating a workflow
+* volume - umoznuje z docker image se pripojit na hostitelsky filesystem
+* -v /app/node_modules 
+  * nodejs appka v dockeru uvidi adresar node_modules, takze se nemusi kopirovat
+  * namapuje i adresar, ktery zatim neexistuje - je to takovy bookmark
+* -v $(pwd):/app
+  * namapuje aktualni adresar filesystemu do /app v dokrim image
+  * tj. kdyz chce appka sahnout do /app, sahne si do aktualniho adresare
+  * nefunguje ve windows, je potreba gitbash (anebo alternativa)
+* do docker-compose.yml se da pridat service pro testy, aby se mi spousteli vsechny, ne jen "toho casu" zbuildene (tj. kdyz pridam neco do APp.test.js, aby se vykonaly)  * Nevyhodou ale je, ze pak nefunguje interaktivni konzole pro testy v node.js
+  * na Windows to (aktualne) ale nefunguje
+   
+
+
 
