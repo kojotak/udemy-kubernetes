@@ -73,7 +73,9 @@ My notes and examples from Udemy's Docker and Kubernetes course: https://www.ude
   * nefunguje ve windows, je potreba gitbash (anebo alternativa)
 * do docker-compose.yml se da pridat service pro testy, aby se mi spousteli vsechny, ne jen "toho casu" zbuildene (tj. kdyz pridam neco do APp.test.js, aby se vykonaly)  * Nevyhodou ale je, ze pak nefunguje interaktivni konzole pro testy v node.js
   * na Windows to (aktualne) ale nefunguje
-   
+
+## Section 7 - CI and deployment to AWS
+
 
 
 

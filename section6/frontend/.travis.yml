@@ -1,0 +1,10 @@
+language: generic
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t kojotak/udk8s -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true kojotak/udk8s npm run test
