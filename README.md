@@ -75,7 +75,9 @@ My notes and examples from Udemy's Docker and Kubernetes course: https://www.ude
   * na Windows to (aktualne) ale nefunguje
 
 ## Section 7 - CI and deployment to AWS
-
+* AWS sevices"
+  * iam - sprava uzivatelu, nastavuji se prava a access key
+  * elasticbeanstalk - amazoni docker platforma
 
 
 
